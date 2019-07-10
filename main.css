@@ -1,0 +1,113 @@
+
+body {
+    font-family:serif  ;
+    padding: 5px;
+    margin: 5px;     
+}
+
+header h1,h4 { color: blue}
+
+.menu ul { list-style : none
+    }
+
+.menu {
+    text-align:left ;         
+}
+
+.menu li:hover {
+    text-align:center;
+    text-decoration: underline;        
+}
+
+.menu li {
+    display: inline-flex;    
+    margin: 0px;
+    width : 10%;        
+}
+
+.menu li:nth-child(3) {
+    background-color: aqua;    
+    text-decoration: underline;
+}
+
+table, th, td { border: 1px;
+    border-style: double;
+    
+    }
+tfoot td { text-align: right;}
+
+li a { 
+    text-decoration:none;    
+}
+
+ul { list-style : none
+    }
+
+ul ul {list-style :circle}
+
+#facts {
+    float: left; 
+    width:  25%;        
+}
+
+#earth {
+    float: left; 
+    width:  50%;    
+}
+
+#moon {
+    float: left; 
+    width:  25%;    
+}
+
+img {
+ border-radius: 25px;
+ width: 175px;
+ height: 175px; 
+}
+
+aside {
+    width: 30%;
+    padding-left: .5rem;
+    margin-left: .5rem;    
+    float: right;            
+    /* box-shadow: inset 5px 0px 5px -5px ; */
+}
+
+aside > p {
+    margin: .5rem;
+}
+
+footer {
+    float: left;
+    width:  100%;        
+}
+
+
+/*
+footer > li {
+ display:inline     
+}
+*/
+hr {    
+    border-bottom: 1px solid blue;
+}
+
+nav ul {
+   width: 100%;
+   margin: 0 auto;    
+ }
+ nav ul > li {
+   float: left;
+   width: 33%;
+ }
+nav ul > li > ul {
+   /* display: block; */
+   width: 100%;    
+ }
+nav ul > li > ul > li {
+   /* display: block; */
+   float: none;
+    
+ }
+
